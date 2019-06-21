@@ -25,10 +25,10 @@ IL_DevMod = false;
 waitUntil { time > 0 };
 IL_Script_Inst = time;
 
-if (IL_DevMod) then
-{
-	Player globalChat Format["IgiLoad ""%1"" IN.", IL_Script_Inst];
-};
+//if (IL_DevMod) then
+//{
+	//Player globalChat Format["IgiLoad ""%1"" IN.", IL_Script_Inst];
+//};
 
 //if (isDedicated) exitwith {};
 //if (isServer) exitwith {};
