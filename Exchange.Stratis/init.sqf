@@ -1,4 +1,4 @@
-// _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
+_igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 {
     if (side _x isEqualTo WEST) then {
 	_x addEventHandler ["HandleDamage", {[_this select 0, _this select 3] call fnc_injuresource}];
