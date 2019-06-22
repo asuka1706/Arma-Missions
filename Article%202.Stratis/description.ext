@@ -1,0 +1,5 @@
+DisabledAI = 1;
+
+class Params
+{
+};
