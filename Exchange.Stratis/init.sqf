@@ -1,9 +1,6 @@
 _igiload = execVM "IgiLoad\IgiLoadInit.sqf";
 
-if (isServer) {
-    setViewDistance = 2800;
-    setObjectViewDistance = 2200;
-};
+enableSentences false;
 
 {
     if (side _x isEqualTo WEST) then {

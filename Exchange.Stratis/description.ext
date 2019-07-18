@@ -1,5 +1,7 @@
+#include "taw_vd\GUI.h"
+
 DisabledAI = 1;
 
-class Params
-{
+class CfgFunctions {
+	#include "taw_vd\CfgFunctions.hpp"
 };
