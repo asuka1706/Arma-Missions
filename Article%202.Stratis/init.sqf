@@ -1,7 +1,10 @@
-if (isServer) {
-    setViewDistance = 2800;
-    setObjectViewDistance = 2200;
-};
+enableSentences false;
+
+{
+    if (side _x isEqualTo West) then {
+	_x setSkill 0.75;
+    };
+} forEach allUnits;
 
 player addEventHandler['HandleRating', {
     player addRating 1000;

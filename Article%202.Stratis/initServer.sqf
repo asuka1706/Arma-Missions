@@ -4,7 +4,7 @@ addMissionEventHandler ["EntityKilled",{
 
     params ["_killedUnit","_killer","_triggerMan"];
 
-    if (side _killedUnit isEqualTo civilian) then {
+    if ((side _killedUnit isEqualTo civilian) && (side _triggerMan isEqualTo Independent)) then {
 
         CivKillCounter = CivKillCounter + 1;
 

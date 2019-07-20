@@ -13,6 +13,9 @@ enableSentences false;
         _x setSkill ["courage", 0.20];
         _x setSkill ["spotTime", 0.60];
     };
+    if (side _x isEqualTo West) then {
+	_x setSkill 0.75;
+    };
 } forEach allUnits;
 
 fnc_injuresource = {
